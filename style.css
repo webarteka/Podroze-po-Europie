@@ -196,7 +196,7 @@ nav{
 .tiles-content a{
     display: block;
     text-decoration: none;
-    height: 400px;
+    height: 453.33px;
     border-radius: 10px;
     transition: 0.2s ease-in-out;
     background-position: center;
@@ -281,7 +281,7 @@ footer{
     grid-template-columns: 1fr;
 }
 .hero-text{
-    width: 80%;
+    width: 90%;
     max-width: 600px;
 }
 .hero-text h1{
@@ -291,8 +291,12 @@ footer{
     display: none;
 }
 .tiles-content{
+    width: 90%;
     grid-template-columns: 1fr 1fr;
-    width: 80%;
+}
+.tiles-content a{
+    height: 0;
+    padding-top: 100%;
 }
 #tiles-tile1{
     grid-column: auto;
@@ -314,7 +318,7 @@ footer{
     justify-items: center;
 }
 .tiles-content a{
-    width: 80%;
-    max-width: 400px;
+    width: 90%;
+    padding-top: 90%;
 }
 }
