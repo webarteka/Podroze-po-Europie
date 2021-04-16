@@ -133,13 +133,13 @@ nav{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
     align-items: center;
     column-gap: 40px;
 }
 
 
 .hero-text{
+    justify-self: start;
     width: 600px;
 }
 .hero-text p{
@@ -292,6 +292,7 @@ footer{
     grid-template-columns: 1fr;
 }
 .hero-text{
+    justify-self: center;
     width: 90%;
     max-width: 600px;
 }
