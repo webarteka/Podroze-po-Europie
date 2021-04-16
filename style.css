@@ -322,7 +322,7 @@ footer{
 
 
 
-@media(max-width: 800px){
+@media(max-width: 600px){
 .social-icons a{
     display: none;
 }
